@@ -5,7 +5,7 @@
 * `200`: 同步需求執行成功，包含 `GET` 呼叫、`DELETE` 或 `PATCH` 呼叫、`PUT` 更新資源呼叫。
 * `201`: 同步需求執行成功，包含 `POST` 呼叫，及 `PUT` 建立資源呼叫。
 * `202`: 非同步需求已接受，包含 `POST`、`PUT`、`DELETE` 及 `PATCH`。
-* `206`: `GET` 需求成功，但只回傳部分回應。詳見前一章[以 Range 分頁](foundations/paginate-with-ranges.md)。
+* `206`: `GET` 需求成功，但只回傳部分回應。詳見前一章[以 Range 分頁](/foundations/divide-large-responses-across-requests-with-ranges.md)。
 
 謹慎使用認證與授權的錯誤碼：
 
